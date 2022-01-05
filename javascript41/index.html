@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 300px;
+        }
+    </style>
+    <script>
+        window.onload = function(){
+        var btn = document.querySelector('#btn');
+        var img = document.querySelector('#image');
+        var imgArr = ['pic1.jpeg','pic2.jpeg','pic3.jpeg']
+
+            btn.onclick = function(){
+                img.src = 'pic2.jpeg';
+            }
+
+            
+        }
+    </script>
+</head>
+<body>
+    <button id="btn">次へ</button>
+    <img src="pic1.jpeg" alt="" id="image">
+
+    
+</body>
+</html>
